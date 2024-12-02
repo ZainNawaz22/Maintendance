@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>900</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="mouseTracking">
+   <bool>true</bool>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+       border-radius: 15px;
+       padding: 5px 15px;
+       border: 2px solid #CCCCCC;
+       background-color: #FFFFFF;
+       min-height: 30px;
+     }
+     QPushButton:hover {
+       background-color: #E5E5E5;
+     }
+     QPushButton:pressed {
+       background-color: #D0D0D0;
+     }
+     QPushButton:focus {
+       border: 2px solid #0078D7;
+     }</string>
+    </property>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>900</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
