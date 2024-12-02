@@ -1,0 +1,4 @@
+ID - Type - From - To - Days - Reason - Status
+g1 - 1 - 2024/11/22 - 2024/11/22 - 1 - jfkla; - pending
+g1 - 3 - 2024/11/22 - 2024/11/22 - 1 - sdf - pending
+g1 - 1 - 2024/11/22 - 2024/11/22 - 1 - jfkdla - pending
